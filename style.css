@@ -1,0 +1,51 @@
+/* ... (stilurile existente) ... */
+
+#featured-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tour-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.tour-info {
+    width: 50%;
+}
+
+#itinerary {
+    padding: 20px;
+}
+
+.itinerary-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.itinerary-details li {
+    margin-bottom: 10px;
+}
+
+#attractions {
+    padding: 20px;
+}
+
+.attractions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.attraction {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.attraction img {
+    width: 100%;
+    height: auto;
+}
